@@ -1,0 +1,52 @@
+.main{
+    padding:10%;
+}
+
+.message h4{
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.message h1{
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+.message h3{
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+.message{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.socials{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    padding: 5% 0;
+    width: 75vw;
+}
+
+.icons{
+    display: flex;
+    gap: 1.8em;
+    margin: 5% 0;
+}
+
+.github{
+    color: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.twitter{
+    color: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
