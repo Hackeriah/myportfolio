@@ -5,21 +5,70 @@
 .message h4{
     font-weight: 200;
     font-size: 2em;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: 
+        typing 10s steps(1009) ,
+        cursor .1s step-end infinite alternate;
+        text-shadow: 1px 1px 1px #919191,
+        1px 1px 1px #919191,
+        1px 1px 1px #919191;
+    
 }
+
 
 .message h1{
     font-weight: bold;
-    font-size: 7rem;
+    font-size: 7rem; 
+    min-width: 3px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: 
+        typing 7s steps(100) ,
+        cursor .4s step-end infinite alternate;
+
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191;
 }
+
+@keyframes cursor{
+    50% {border-color: aqua;}
+}
+
+@keyframes typing{
+    from {width:10}
+}
+
+/* .message h1 span{
+    position: ;
+} */
 
 .message h3{
     font-size: 1.6em;
     font-weight: 100;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(100) ,
+        cursor .4s step-end infinite alternate;
+        
 }
 
 .message{
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
 }
 
 .socials{

@@ -99,11 +99,16 @@
 import React from 'react'
 import { Inter } from 'next/font/google'
 import Welcome from './ui/HomePage/Welcome/Welcome'
+import Services from './ui/HomePage/Services/Services'
+import styles from './ui/HomePage/Homepage.module.css'
+import HireMe from './ui/HomePage/HireMe/HireMe'
 
 export default function Home() {
   return (
-    <div className="">
+    <div className={styles.main}>
       <Welcome/>
+      <Services/>
+      <HireMe/>
     </div>
   )
 }

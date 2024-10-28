@@ -7,13 +7,13 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <Image src="/images/logo.png" alt="" width={30} height={30} />
+        <Link href="/"><Image className={styles.img} src="/images/logo.png" alt="" width={30} height={30} /></Link>
       </div>
       <div className={styles.links}>
         <ul>
-            <li><Link className={styles.Link} href="#home">Home</Link></li>
+            <li><Link className={styles.Link} href="/">Home</Link></li>
             <li><Link className={styles.Link} href="#services">Services</Link></li>
-            <li><Link className={styles.Link} href="#portfolio">Portfolio</Link></li>
+            <li><Link className={styles.Link} href="/portfolio">Portfolio</Link></li>
             <li><Link className={styles.Link} href="#hireMe">Hire Me</Link></li>
         </ul>
       </div>

@@ -1,0 +1,102 @@
+.main{
+    width: 100%;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    /* background-color: aqua; */
+}
+.texts{
+    margin-bottom: 2em;
+}
+
+
+.main h3{
+    font-size: 2.2em;
+    color: white;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.main h1{ 
+    font-size: 4.2em;
+    color: white;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main input{
+    width: 45%;
+    padding-left: 20px;
+    border-radius: 14px;
+    background-color: #002854;
+    height: 60px;
+    border: none;
+    border: 2px solid #2196F3;
+    font-size: 1.4em; 
+    color: white
+}
+
+.main textarea{
+    width: 100%;
+    height: 10em;
+    border-radius: 14px;
+    padding: 10px 10px 10px 20px;
+    background-color: #002854;
+    border: 2px solid #2196F3;
+    font-size: 1.8em;
+    color: white
+}
+
+.main form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.arrowM{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+
+.arrow {
+    background-image: url('/images/arrow.png');
+    height: 8em;
+    width: 300px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    display: flex; 
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.arrow button{
+ height:  70px;
+ width: 70px;
+ align-items: end;
+ justify-content: end;
+ border-radius: 50%;
+border: none;
+float:right;
+cursor: pointer;
+background-color: transparent;
+color: transparent;
+}
+
+.arrow button:hover{
+    visibility: visible;
+    background-color: white;
+    color:#001a3e;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,12 +1,13 @@
-import React from 'react';
-import Welcome from '../ui/HomePage/Welcome/Welcome';
-import Services from '../ui/HomePage/Services/Services';
+import Contents from "../ui/Portfolio/contents/contents";
+import styles from "../ui/Portfolio/portfolio.module.css";
 
-export default function portfolio() {
+export default function Portfolio() {
   return (
-    <>
-    <Welcome/>
-    <Services/>
-    </>
-  )
+    <div className={styles.main}>
+      <div className={styles.title}>
+        <p>Check out some <br />things I’ve built</p>
+      </div>
+      <Contents/>
+    </div>
+  );
 }

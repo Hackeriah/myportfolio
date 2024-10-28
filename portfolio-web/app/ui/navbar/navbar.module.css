@@ -8,8 +8,13 @@
     justify-content: center;    
 }
 
+.logo .img{
+    cursor: pointer;
+}
+
 .logo{
     flex: 1;
+
 }
 
 .links{
@@ -34,7 +39,6 @@
 }
 
 .button{
-    /* background-color: rgb(17, 61, 61); */
     display: flex;
     flex: 1;
     justify-content: flex-end;

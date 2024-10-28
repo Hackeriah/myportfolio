@@ -1,0 +1,54 @@
+.main{
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rContainer{
+    padding-top: 2em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: -5%;
+    z-index: 2;
+    transform: translateY(-20px);
+}
+.textTitle{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.9em;
+    justify-content: end;
+}
+
+.textTitle h5{
+    font-size: 0.9em;
+    color: #2196F3;
+}
+
+.textTitle p{
+    color: white;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6em;
+}
+
+.textContent{
+    height:50%;
+    font-size: 1.6vw;
+    color: #00193E;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.socials{
+    height: 20%;
+}
+
+.img{
+    width: 55%;
+    height: 20%;
+    position: relative;
+}

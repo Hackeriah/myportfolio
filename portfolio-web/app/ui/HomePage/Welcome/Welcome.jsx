@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Welcome.module.css';
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import ChatButton from "../../chatButton/chatButton";
+import ChatButton from "../chatButton/chatButton";
 
 export default function Welcome() {
   return (

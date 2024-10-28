@@ -1,0 +1,10 @@
+.footer{
+    text-align: center;
+    color:#AEAEAE ;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin: 5% 0 1px 0;
+}
+
+/* style={{textAlign:'center',color: '', fontSize:'20px'}} */

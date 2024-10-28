@@ -1,0 +1,43 @@
+.main{
+    height: fit-content;
+    padding-bottom: 30px;
+    width:100%;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.titleContainer{
+    width: 100%;
+    height: 9%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 4em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    margin-top: 4em;
+}
+
+.titleContainer button{
+    height: 100%;
+    width: fit content;
+    padding: 20px;
+    font-size: 1.2em;
+     background-color: transparent;
+    text-align: center;
+    font-weight: 400;
+    color:white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+.lft{
+    border-bottom: 8px solid white;
+}
