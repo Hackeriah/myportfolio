@@ -1,5 +1,8 @@
 import styles from "./projectCardsL.module.css";
+import Link from "next/link";
 import Image from "next/image";
+import { FiGithub } from "react-icons/fi";
+import { IoLink } from "react-icons/io5";
 
 export default function ProjectCardsL({text1,text2,text3,img}) {
   
@@ -19,8 +22,8 @@ export default function ProjectCardsL({text1,text2,text3,img}) {
           </p>
         </div>
         <div className={styles.socials}>
-          <i>github</i>
-          <i>link</i>
+        <Link href='https://github.com/Hackeriah'><FiGithub className={styles.github}/></Link>
+        <Link href='https://www.linkedin.com/in/cyberiah/'><IoLink className={styles.link}/></Link>
         </div>
       </div>
     </div>

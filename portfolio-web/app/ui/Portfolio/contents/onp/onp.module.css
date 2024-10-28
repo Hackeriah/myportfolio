@@ -1,0 +1,106 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title0{
+    font-size: 4.4vh;
+    color: white;
+    font-weight: bold;
+}
+
+.title1{
+    color:#2196F3;
+    font-size: 2.6vh;
+    font-weight: 400;
+
+}
+.portfolioContainer{
+    padding: 2% 0;
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.texts{
+    padding: 5px;
+}
+
+.projectCard{
+    margin: 2% 0;
+    padding: 1.0em;
+    border-radius: 7px;
+    width: 25%;
+    height: 48vh;
+    background-color: white;
+}
+.projectLinks{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.socials{
+    gap: 10px;
+    display: flex;
+}
+
+.sm{
+    width: 22px;
+    height: 22px;
+    color: black;
+}
+.sm:hover{
+    color: #2196F3;
+}
+
+.folder{
+    color:#2196F3;
+    width: 34px;
+    height: 34px;
+}
+
+.folder:hover{
+    color:#2c6a9c;
+}
+
+.texts h3{
+    text-align: start;
+    padding-bottom: 5px;
+}
+
+.texts p{
+    font-size: 1.1vw;
+    text-align: start;
+}
+
+.main button{
+    margin-top: 3%;
+    height: fit-content;
+    width: 7em;
+    background-color: #008AF81A;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main button:hover{
+    border: 1px solid;
+    border-color: #2196F3;
+}
