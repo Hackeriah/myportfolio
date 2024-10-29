@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from './navbar.module.css'
 
 export default function Navbar() {
+  const downloadcv = '/ISAIAH-SAMUEL-CV.pdf'
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
@@ -19,7 +20,7 @@ export default function Navbar() {
       </div>
 
       <div className={styles.button}>
-        <button>Download CV</button>
+        <Link href={downloadcv}><button>Download CV</button></Link>
       </div>
     </nav>
   );

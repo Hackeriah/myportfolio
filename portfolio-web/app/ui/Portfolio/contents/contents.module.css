@@ -39,6 +39,14 @@
     cursor: pointer;
 }
 
-.lft{
-    border-bottom: 8px solid white;
+.projectsButton{
+    background-color: aqua;
+}
+
+.active{
+    border-bottom: 6px solid white;
+}
+
+.titbitsButton{
+
 }

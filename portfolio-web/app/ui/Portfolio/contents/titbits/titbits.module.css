@@ -1,0 +1,23 @@
+.main{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    padding: 0 5%;
+    gap: 5%;
+
+}
+
+.imageWrapper{
+    width: 47.5%;
+    height:55vh;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2vh 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #2196F3;
+    
+}
+
+
